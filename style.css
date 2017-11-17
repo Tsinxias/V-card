@@ -1,0 +1,30 @@
+body {
+  background-image: url("grey_wash_wall.png");
+  font-family: Verdana, sans-serif;
+}
+
+.left {
+  border-radius: 1%;
+  border-color: lightgrey;
+  border-spacing: 5px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 1150px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.info {
+  float:left;
+}
+
+.response {
+
+}
+
+ul {
+  list-style-type: none;
+}
