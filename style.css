@@ -1,6 +1,14 @@
 body {
   background-image: url("grey_wash_wall.png");
-  font-family: Verdana, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: auto;
+  justify-content: flex-around;
+}
+
+section {
+  position: relative;
+  border: 3px solid #cccccc;
+  box-sizing: border-box;
 }
 
 .left {
@@ -9,22 +17,102 @@ body {
   border-spacing: 5px;
   background-color: white;
   margin-left: 20px;
-  margin-right: 1150px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 10px;
+  margin-right: 78%;
+  margin-top: 1%;
+  padding-bottom: 5.5%;
+  padding-top: 2.5%;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
+  font-size: 110%;
+  border: 3px solid #2196F3;
+  height: 500px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
-.info {
-  float:left;
+table {
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.response {
+.centered {
+  text-align: center;
+}
 
+.middle {
+  border-radius: 1%;
+  border-color: lightgrey;
+  border-spacing: 5px;
+  background-color: white;
+  border: 3px solid #009688;
+	height: 500px;
+	width: 50%;
+  margin-right: 78%;
+  margin-left: 24%;
+  margin-top: 1%;
+  padding-bottom: 7%;
+  padding-top: 1%;
+  font-size: 2em;
+  text-align: center;
+  position: fixed;
+}
+
+.titre {
+  font-size: 250%;
+  color: #0B0B3B;
+}
+
+.bold {
+  font-weight: bold;
+    color: #0B0B3B;
+}
+
+.right {
+  border-radius: 1%;
+  border-color: lightgrey;
+  border-spacing: 5px;
+  background-color: white;
+  border: 3px solid #0489B1;
+  height: 500px;
+  width: 15%;
+  margin-left: 76%;
+  margin-top: 1%;
+  padding-bottom: 7%;
+  padding-top: 1%;
+  padding-left: 3%;
+  font-size: 200%;
+  text-align: left;
+  position: fixed;
 }
 
 ul {
   list-style-type: none;
+}
+
+.footer {
+  border-radius: 1%;
+  border-color: lightgrey;
+  border-spacing: 5px;
+  background-color: white;
+  border: 3px solid #01A9DB;
+  width: 93%;
+  margin-left: 17px;
+  margin-top: 43%;
+  margin-bottom: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 2em;
+  text-align: center;
+  position: fixed;
+  word-spacing: 200px;
+  color: black;
+  text-decoration: none;
+}
+
+.font {
+  font-family: Arial, sans-serif;
 }
